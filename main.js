@@ -39,6 +39,7 @@ let phrases = [
 
 btnImg.addEventListener('click', handleImgClick)
 btnRetry.addEventListener('click', handleRetryClick)
+window.addEventListener('keydown', handleKeydown)
 
 function handleImgClick() {
   toggleScreen()
@@ -58,4 +59,10 @@ function toggleScreen() {
 function generatePhrases() {
   let randomPhrase = Math.round(Math.random() * 29)
   screen2.querySelector(".message p").innerText = phrases[randomPhrase]
+}
+
+function handleKeydown(event) {
+  if(event.key == 'Enter') {
+    handleImgClick()
+  }
 }
