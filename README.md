@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Página web, no qual o usuário, a partir de um clique ou enter, abre um biscoito com a sua sorte do dia.
+Página web na qual o usuário, a partir de um clique ou enter, abre um biscoito com a sua sorte do dia.
 
 - [Acesse o projeto finalizado, online](https://brunobrsl.github.io/fortune-cookie)
 
